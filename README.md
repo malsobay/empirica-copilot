@@ -4,6 +4,8 @@
 
 A starter template + skill pack for creating and testing [Empirica](https://empirica.ly/) experiments with AI assistance.
 
+This is a very early test and a work in progress. The goal is for the community to collectively create a set of skills that are capable and robust across a wide range of experimental domains and design complexity. 
+
 ## What this repo is
 
 - An empty Empirica project structure you can use as a starting point.
@@ -34,10 +36,9 @@ A starter template + skill pack for creating and testing [Empirica](https://empi
 
 ## Quick start
 
-1. Install dependencies in `client/` and `server/`.
-2. Start your CLI coding agent in this repository.
-3. Ask the agent to start building a new Empirica experiment using the skills in `.github/skills/` (or by following those `SKILL.md` files directly).
-4. Run Empirica from the repo root (`empirica`) when prompted by your workflow.
+1. Start your CLI coding agent in this repository.
+2. Ask the agent to start building a new Empirica experiment using the skills in `.github/skills/`, e.g. "Using the spec and implementation skills, I want you to help me create a new experiment". The agent should begin by interviewing you about the experiment to determine the specifications, and then proceeding to an initial implementation, from which you can iterate by giving feedback. 
+3. Run `empirica` at various points in the process to test the implementation and give more detailed feedback to the agent. 
 
 ## Using this repo without GitHub Copilot (e.g., Claude Code)
 
